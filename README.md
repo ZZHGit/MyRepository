@@ -43,3 +43,10 @@ git branch -d mybranch
 把最新版本重新暂存起来.
 
 给 git commit 加上 -a 选项，Git 就会自动把所有已经跟踪过的文件暂存起来一并提交，从而跳过 git add步骤
+Git log
+git log --pretty=format:"%h - %an, %ar : %s"
+git log --since=2.weeks
+
+取消已经暂存的文件
+git reset HEAD <file>..
+
