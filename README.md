@@ -8,7 +8,7 @@ Personal resource
 Username ZZHGit
 Mail zhaozhenhua121@sina.com
 Password *********
-
+Git help git
 MsysGit安装
 Fork the repository
 Clone your fork
