@@ -50,3 +50,18 @@ git log --since=2.weeks
 取消已经暂存的文件
 git reset HEAD <file>..
 
+取消修改
+use "git checkout -- <file>..." to discard changes in working directory
+列出现有标签的命令非常简单，直接运行 git tag
+git show 命令查看相应标签的版本信息
+gitk
+git gui
+克隆一个特定的远程分支（Clone a specific remote branch）
+如果你想从远程资源库中克隆一个特定的分支，而无需克隆整个资源库分支，那么下面的这段代码将对你有用。 
+git init    
+git remote add -t BRANCH_NAME_HERE -f origin REMOTE_REPO_URL_PATH_HERE    
+git checkout BRANCH_NAME_HERE    
+#分支放到远程
+git push origin test/
+
+
