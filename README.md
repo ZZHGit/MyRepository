@@ -36,3 +36,8 @@ git merge mybranch
 # Merges the commits from "mybranch" into "master"
 git branch -d mybranch
 # Deletes the "mybranch" branch
+
+实际上 Git 只不过暂存了你运行 git add 命令时的版本，如果现在提交，
+那么提交的是添加注释前的版本，而非当前工作目录中的版本。
+所以，运行了git add 之后又作了修订的文件，需要重新运行 git add 
+把最新版本重新暂存起来.
