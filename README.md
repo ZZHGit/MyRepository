@@ -62,6 +62,6 @@ git init
 git remote add -t BRANCH_NAME_HERE -f origin REMOTE_REPO_URL_PATH_HERE    
 git checkout BRANCH_NAME_HERE    
 #分支放到远程
-git push origin test/
+git push origin test
 
 
